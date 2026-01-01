@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone - ByKAI</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="menu" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="logo" />
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="" />
+          <div class="tooltip">YouTube apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">24</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img
+          class="current-user-picture"
+          src="channel_profile/images.jpg"
+          alt="profile"
+        />
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </div>
+
+    <!-- VIDEO GRID -->
+    <div class="video-grid">
+      <!-- VIDEO 1 -->
+      <a href="https://youtu.be/CgCVZdcKcqY" class="x" target="_blank">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail1.avif" alt="" />
+            <div class="video-time">3:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">BLACKPINK – ‘뛰어(JUMP)’ M/V</p>
+              <p class="video-author">BLACKPINK</p>
+              <p class="video-stats">308M views · 5 months ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- VIDEO 2 -->
+      <a href="https://youtu.be/gQlMMD8auMs" class="x" target="_blank">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail2.avif" alt="" />
+            <div class="video-time">3:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">BLACKPINK – ‘Pink Venom’ M/V</p>
+              <p class="video-author">BLACKPINK</p>
+              <p class="video-stats">1B views · 3 years ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- VIDEO 3 -->
+      <a href="https://youtu.be/cXmYNmQ4BuM" class="x" target="_blank">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail3.avif" alt="" />
+            <div class="video-time">3:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">JENNIE – ZEN (Official Video)</p>
+              <p class="video-author">JENNIE</p>
+              <p class="video-stats">71M views · 11 months ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- VIDEO 4 -->
+      <a href="https://youtu.be/ekr2nIex040" class="x" target="_blank">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail4.avif" alt="" />
+            <div class="video-time">2:54</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">ROSÉ & Bruno Mars – APT.</p>
+              <p class="video-author">ROSÉ</p>
+              <p class="video-stats">2.2B views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- VIDEO 5 -->
+      <a
+        href="https://youtu.be/pxGM_TOgHuM?si=Xk__tNs2s6LWghVZ"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail5.avif" alt="" />
+            <div class="video-time">2:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">LISA – MOONLIT FLOOR</p>
+              <p class="video-author">LLOUD Official</p>
+              <p class="video-stats">96M views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- VIDEO 6 -->
+      <a
+        href="https://youtu.be/Ba6xz9-63c4?si=6tJK_TEh-RriI8b2"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail6.avif" alt="" />
+            <div class="video-time">3:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">JISOO – ‘LIAR’</p>
+              <p class="video-author">JISOO</p>
+              <p class="video-stats">1B views · 2 years ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- VIDEO 7 -->
+      <a
+        href="https://youtu.be/G3e-cpL7ofc?si=o6qIXv9Gi5flMnVd"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail7.avif" alt="" />
+            <div class="video-time">6:31:16</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile6.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">HTML & CSS Full Course</p>
+              <p class="video-author">SuperSimpleDev</p>
+              <p class="video-stats">17M views · 3 years ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="https://youtu.be/Dt_6puiIqvI?si=ls0UtiRHb6thHBII"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail8.avif"
+              alt="thumbnail"
+            />
+            <div class="video-time">3:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile7.jpg"
+                alt="channel_profile"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Heize (헤이즈) - Hold Me Back (멈춰줘) | Queen of Tears (눈물의
+                여왕) OST Part. 3 (ENG) MV
+              </p>
+              <p class="video-author">ClsQ</p>
+              <p class="video-stats">4m views &middot; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="https://youtu.be/zo7i8VTpfNM?si=iQuSKMlbufZ0_8ec"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail9.avif"
+              alt="thumbnail"
+            />
+            <div class="video-time">25:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile8.jpg"
+                alt="channel_profile"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Would You Risk Dying For $500,000?</p>
+              <p class="video-author">MrBeast</p>
+              <p class="video-stats">109m views &middot; 3 months ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="https://youtu.be/V7c9zsOh2MY?si=HjE_N3_Myy1p3o4F"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail10.avif"
+              alt="thumbnail"
+            />
+            <div class="video-time">29:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile9.jpg"
+                alt="channel_profile"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I Played My FIRST EVER Town Hall 18 Tournament… It Was NOT Easy
+              </p>
+              <p class="video-author">Sumit 007</p>
+              <p class="video-stats">175k views &middot; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a
+        href="https://youtu.be/wQ8rLch9Dbc?si=pCruf3GksQ98_v8L"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail11.avif"
+              alt="thumbnail"
+            />
+            <div class="video-time">21:57</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile10.jpg"
+                alt="channel_profile"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                BEYBLADE GREVOLUTION EN Episode 47: NOW YOU&rsquo;RE MAKING ME
+                MAD
+              </p>
+              <p class="video-author">BEYBLADE Official</p>
+              <p class="video-stats">4.2m views &middot; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a
+        href="https://youtu.be/16PncZlSNds?si=AnUVbj793YPpznRD"
+        class="x"
+        target="_blank"
+      >
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail12.avif"
+              alt="thumbnail"
+            />
+            <div class="video-time">7:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img
+                class="profile-picture"
+                src="channel_profile/channels_profile11.jpg"
+                alt="channel_profile"
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Scroll Animation using only CSS | No JavaScript
+              </p>
+              <p class="video-author">CSSnippets</p>
+              <p class="video-stats">72k views &middot; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </body>
+</html>
